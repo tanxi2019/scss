@@ -1,0 +1,15 @@
+//scss文件编写，参考http://sass.bootcss.com/docs/sass-reference/
+$color:#000000; // 变量颜色
+$font-stack:Helvetica, sans-serif; // 变量字体
+$width: 100%;
+%message-shared { // 所要继承的公共部分,继承的类名%message-shared。
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #333;
+	margin: 10px 0;
+}
+%main-shared {
+	background: #eee;
+	height: 60px;
+	line-height: 60px;
+}
